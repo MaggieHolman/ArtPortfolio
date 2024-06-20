@@ -1,0 +1,21 @@
+
+nav, .nav-links{
+    display: flex;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+nav {
+    justify-content: space-around;
+    padding-top: 2%;
+    gap: 30%;
+}
+
+.logo {
+    font-size: 5vh;
+}

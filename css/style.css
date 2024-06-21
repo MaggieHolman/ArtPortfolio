@@ -194,11 +194,44 @@ a:hover {
     height: 14rem;
   }
 
-  @media(max-width:1215px) {
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
     .photo-gallery {
         flex-direction: column;
         justify-content: center;
         margin: auto;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .nav-links li a, .footer-nav-links li a {
+      font-size: 1rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .footer-nav-links {
+        gap: .5rem;
+        text-align: center;
+    }
+    .title {
+      font-size: 2rem;
     }
   }
 

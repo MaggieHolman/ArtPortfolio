@@ -1,4 +1,23 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+body {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+  transition: all 400ms ease;
+}
+
 nav, .nav-links{
     display: flex;
 }
@@ -8,14 +27,104 @@ nav, .nav-links{
     margin: 0;
     padding: 0;
     gap: 2rem;
+    margin-left: 25%;
+    margin-top: .75%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
 }
 
 nav {
     justify-content: space-around;
     padding-top: 2%;
-    gap: 30%;
+    
 }
 
 .logo {
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
     font-size: 5vh;
 }
+
+.icon {
+    width: 25px; /* Set the desired width */
+    height: auto;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+  }
+
+  .logo:hover {
+    cursor: default;
+  }
+
+  .icon:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .container {
+    max-width: 1224px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5% 0%;
+  }
+
+  .photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .photo-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .photo img {
+    border-radius: 5px;
+  }
+
+  .art-photo1 {
+    width: 19rem;
+    height: 26rem;
+  }
+  .art-photo2 {
+    width: 19rem;
+    height: 24rem;
+  }
+  .art-photo3 {
+    width: 19rem;
+    height: 24rem;
+  }
+  .art-photo4 {
+    width: 19rem;
+    height: 24rem;
+  }
+  .art-photo5 {
+    width: 19rem;
+    height: 30rem;
+  }
+  .art-photo6 {
+    width: 19rem;
+    height: 30rem;
+  }
+  .art-photo7 {
+    width: 19rem;
+    height: 30rem;
+  }
+  .art-photo8 {
+    width: 19rem;
+    height: 26rem;
+  }
+  .art-photo9 {
+    width: 19rem;
+    height: 26rem;
+  }

@@ -90,6 +90,7 @@ a:hover {
 
   .photo img {
     border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
   }
 
   .art-photo1 {
@@ -122,9 +123,130 @@ a:hover {
   }
   .art-photo8 {
     width: 19rem;
-    height: 26rem;
+    height: 25rem;
   }
   .art-photo9 {
     width: 19rem;
     height: 26rem;
   }
+  .art-photo10 {
+    width: 19rem;
+    height: 15rem;
+  }
+  .art-photo11 {
+    width: 19rem;
+    height: 24rem;
+  }
+  .art-photo12 {
+    width: 19rem;
+    height: 15rem;
+  }
+  .art-photo13 {
+    width: 19rem;
+    height: 24rem;
+  }
+  .art-photo14 {
+    width: 19rem;
+    height: 15rem;
+  }
+  .art-photo15 {
+    width: 19rem;
+    height: 28rem;
+  }
+  .art-photo16 {
+    width: 19rem;
+    height: 26rem;
+  }
+  .art-photo17 {
+    width: 19rem;
+    height: 26rem;
+  }
+  .art-photo18 {
+    width: 19rem;
+    height: 27rem;
+  }
+  .art-photo19 {
+    width: 19rem;
+    height: 18rem;
+  }
+  .art-photo20 {
+    width: 19rem;
+    height: 16rem;
+  }
+  .art-photo21 {
+    width: 19rem;
+    height: 23rem;
+  }
+  .art-photo22 {
+    width: 19rem;
+    height: 26rem;
+  }
+  .art-photo23 {
+    width: 19rem;
+    height: 26rem;
+  }
+  .art-photo24 {
+    width: 19rem;
+    height: 27rem;
+  }
+  .art-photo25 {
+    width: 19rem;
+    height: 14rem;
+  }
+
+  @media(max-width:1215px) {
+    .photo-gallery {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+  }
+
+  footer {
+    height: 26vh;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the nav horizontally */
+    align-items: center; /* Center the nav vertically */
+  }
+  
+  footer p {
+    text-align: center;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: center; /* Center the nav horizontally */
+    align-items: center; /* Center the nav vertically */
+     /* Ensure it spans the full width of the footer */
+  }
+
+  .footer-nav-links {
+    /* Example: if a child element has a fixed width */
+ /* Ensure child elements can adjust to content */
+    list-style-type: none;
+    gap: 2rem;
+    display: flex;
+}
+
+.footer-nav-links a {
+    /* Example: Ensure text alignment is centered */
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInRise 1s ease-in-out forwards;
+}
+
+@keyframes fadeInRise {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

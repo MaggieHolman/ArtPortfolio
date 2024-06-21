@@ -199,11 +199,23 @@ a:hover {
     footer {
       height: 40vh;
     }
-    .photo-gallery {
-        flex-direction: column;
+    .container {
         justify-content: center;
         margin: auto;
     }
+    .photo-gallery {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        margin-top: 5%;
+        margin-left: 10%;
+        font-size: 7vh;
+    }
+
     #profile {
       height: 83vh;
       margin-bottom: 0;
@@ -218,13 +230,12 @@ a:hover {
     .nav-links li a, .footer-nav-links li a {
       font-size: 1rem;
     }
-    .logo {
-      font-size: 1.5rem;
-    }
     .nav-links {
       flex-direction: column;
       gap: 0.5rem;
       text-align: center;
+      margin-top: 2%;
+      margin-right: 2%;
     }
     .footer-nav-links {
         gap: .5rem;

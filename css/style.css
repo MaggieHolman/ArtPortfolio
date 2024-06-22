@@ -379,6 +379,7 @@ a:hover {
     .footer-nav-links {
         gap: .5rem;
         text-align: center;
+        font-size: 2.5vh;
     }
     .title {
       font-size: 2rem;
@@ -396,6 +397,7 @@ a:hover {
   
   footer p {
     text-align: center;
+    font-size: 1.5vh;
   }
 
   .footer-nav {
@@ -403,6 +405,7 @@ a:hover {
     justify-content: center; /* Center the nav horizontally */
     align-items: center; /* Center the nav vertically */
      /* Ensure it spans the full width of the footer */
+     font-size: 2.5vh;
   }
 
   .footer-nav-links {
@@ -431,5 +434,27 @@ body {
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  .contact-image {
+    width: 30vw;
+    height: 70vh;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin-top: 4%;
+  }
+
+  .contact-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   

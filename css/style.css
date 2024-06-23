@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
     font-family: "Italiana", sans-serif;
     font-weight: 400;
@@ -478,14 +482,14 @@ body {
   }
 
   .hello-mirror-photo, .about-photo {
-    width: 23rem;
-    height: 29rem;
+    width: 22rem;
+    height: 28rem;
     border-radius: 10px;
   }
 
   .outside-photo {
-    width: 23rem;
-    height: 26rem;
+    width: 22rem;
+    height: 25rem;
     border-radius: 10px;
   }
 

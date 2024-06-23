@@ -482,14 +482,14 @@ body {
   }
 
   .hello-mirror-photo, .about-photo {
-    width: 22rem;
-    height: 28rem;
+    width: 21rem;
+    height: 26.5rem;
     border-radius: 10px;
   }
 
   .outside-photo {
-    width: 22rem;
-    height: 25rem;
+    width: 21rem;
+    height: 24rem;
     border-radius: 10px;
   }
 
@@ -596,6 +596,7 @@ body {
   }
 
   @media screen and (max-width: 600px) {
+
     .contact-container {
       flex-direction: column;
       justify-content: center;
@@ -660,5 +661,9 @@ body {
 
     .hello-text-description, .about-text-description, .outside-text-discription {
       padding: 1rem;
+    }
+
+    html, body {
+    overflow-x: hidden;
     }
   }

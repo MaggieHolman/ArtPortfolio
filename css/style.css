@@ -440,14 +440,24 @@ body {
     width: 30vw;
     height: 70vh;
     border-radius: 5px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    border: 2px solid lightslategray;
+    transition: transform 0.7s ease-in-out, box-shadow 0.7s ease-in-out;
+  }
+
+  .tech-portfolio {
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  }
+
+  .contact-image:hover, .tech-portfolio:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
   }
 
   .contact-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 7rem;
+    gap: 5rem;
     margin-top: 4%;
   }
 
@@ -456,5 +466,72 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 40vw;
+    height: 30vh;
+    margin-top: 10vh;
+  }
+
+  .email-tech-portfolio {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 40vw;
+  }
+
+  .email, .tech-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 12vh;
+    text-align: center;
+    background-color: #91A9E0;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    border: 2px solid lightslategray;
+  }
+
+  .contact-nav-links {
+    display:flex;
+    list-style-type: none;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+  }
+
+  .contact-nav-links a {
+    text-decoration: none;
+    color: white
+  }
+
+  .icon-contact {
+    width: 3vw;
+    height: 6vh;
+    border: 2px solid lightgrey;
+    padding: 1vh;
+    border-radius: 10px;
+  }
+
+  .icon-contact:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4)
+  }
+
+  .contact-nav {
+    height: 1vh;
+  }
+
+  .contact-a:hover, .tech-portfolio2:hover {
+    color: lightslategray;
+    text-decoration: none;
+  }
+
+  .contact-a, .tech-portfolio2 {
+    text-decoration: none;
+    color:white;
+  }
+
+  h4 {
+    color: white;
   }
   

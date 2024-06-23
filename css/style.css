@@ -224,15 +224,20 @@ a:hover {
   }
 
   #hamburger-nav {
+    z-index: 4;
+    
     display: none;
   }
   
   .hamburger-menu {
-    position: relative;
+    z-index: 4;
+    
     display: inline-block;
   }
   
   .hamburger-icon {
+    z-index: 4;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -242,6 +247,7 @@ a:hover {
   }
   
   .hamburger-icon span {
+    z-index: 4;
     width: 100%;
     height: 2px;
     background-color: black;
@@ -249,6 +255,8 @@ a:hover {
   }
   
   .menu-links {
+    z-index: 4;
+   
     position: absolute;
     top: 100%;
     right: 0;
@@ -260,6 +268,8 @@ a:hover {
   }
   
   .menu-links a {
+    z-index: 4;
+ 
     display: block;
     padding: 10px;
     text-align: center;
@@ -270,34 +280,50 @@ a:hover {
   }
   
   .menu-links li {
+    z-index: 4;
+   
     list-style: none;
   }
   
   .menu-links.open {
+    z-index: 4;
+  
     max-height: 300px;
   }
   
   .hamburger-icon.open span:first-child {
+    z-index: 4;
+   
     transform: rotate(45deg) translate(10px, 5px);
   }
   
   .hamburger-icon.open span:nth-child(2) {
+    z-index: 4;
+   
     opacity: 0;
   }
   
   .hamburger-icon.open span:last-child {
+    z-index: 4;
+   
     transform: rotate(-45deg) translate(10px, -5px);
   }
   
   .hamburger-icon span:first-child {
+    z-index: 4;
+   
     transform: none;
   }
   
   .hamburger-icon span:first-child {
+    z-index: 4;
+   
     opacity: 1;
   }
   
   .hamburger-icon span:first-child {
+    z-index: 4;
+ 
     transform: none;
   }  
 
@@ -352,8 +378,8 @@ body {
   }
 
   .contact-image {
-    width: 23.5rem;
-    height: 29rem;
+    width: 21.5rem;
+    height: 27rem;
     border-radius: 5px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     border: 2px solid lightslategray;

@@ -451,6 +451,35 @@ body {
     color: white;
   }
 
+  .hello-mirror-photo, .about-photo {
+    width: 23rem;
+    height: 29rem;
+    border-radius: 10px;
+  }
+
+  .outside-photo {
+    width: 23rem;
+    height: 26rem;
+    border-radius: 10px;
+  }
+
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hello-container, .about-container, .outside-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
   @media screen and (max-width: 600px) {
 
     .overlay {
@@ -576,3 +605,30 @@ body {
     }
   }
   
+  @media screen and (max-width:600px) {
+    .hello-container, .outside-container {
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-container {
+      flex-direction: column-reverse;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .outside-text, .about-text, .hello-text {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.65rem;
+    }
+
+    .hello-text-description, .about-text-description, .outside-text-discription {
+      padding: 1rem;
+    }
+  }

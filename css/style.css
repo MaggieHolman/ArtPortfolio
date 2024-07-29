@@ -498,6 +498,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
   }
 
   .hello-container, .about-container, .outside-container {
